@@ -1,0 +1,9 @@
+Begun index creation
+Jan 18 16:50:53 ..... Started STAR run
+Jan 18 16:50:53 ... Starting to generate Genome files
+Jan 18 16:52:09 ... starting to sort  Suffix Array. This may take a long time...
+Jan 18 16:52:29 ... sorting Suffix Array chunks and saving them to disk...
+Jan 18 17:42:12 ... loading chunks from disk, packing SA...
+Jan 18 17:43:22 ... Finished generating suffix array
+Jan 18 17:43:22 ... Generating Suffix Array index
+Jan 18 17:48:40 ... Completed Suffix Array index

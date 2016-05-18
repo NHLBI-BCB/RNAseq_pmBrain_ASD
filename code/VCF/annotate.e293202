@@ -1,0 +1,32 @@
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_refGene.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_refGeneMrna.fa.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_refGeneVersion.txt.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_refGeneMrna.fa.gz, http://www.openbioinformatics.org/annovar/download/hg19_refGene.txt.gz, http://www.openbioinformatics.org/annovar/download/hg19_refGeneVersion.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/genomicSuperDups.txt.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/genomicSuperDups.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_esp6500siv2_all.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_esp6500siv2_all.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_esp6500siv2_all.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_esp6500siv2_all.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_1000g2014oct.zip ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_1000g2014oct.zip
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_snp138.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_snp138.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_snp138.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_snp138.txt.gz
+NOTICE: Web-based checking to see whether ANNOVAR new version is available ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_ljb26_all.txt.gz ... Failed
+NOTICE: Downloading annotation database http://www.openbioinformatics.org/annovar/download/hg19_ljb26_all.txt.idx.gz ... Failed
+WARNING: Some files cannot be downloaded, including http://www.openbioinformatics.org/annovar/download/hg19_ljb26_all.txt.idx.gz, http://www.openbioinformatics.org/annovar/download/hg19_ljb26_all.txt.gz
+-----------------------------------------------------------------
+NOTICE: Processing operation=g protocol=refGene
+
+NOTICE: Running with system command <annotate_variation.pl -geneanno -buildver hg19 -dbtype refGene -outfile ASDPanBatch1_multianno.refGene -exonsort /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+Error: cannot read from --queryfile (/hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar): No such file or directory
+Error running system command: <annotate_variation.pl -geneanno -buildver hg19 -dbtype refGene -outfile ASDPanBatch1_multianno.refGene -exonsort /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>

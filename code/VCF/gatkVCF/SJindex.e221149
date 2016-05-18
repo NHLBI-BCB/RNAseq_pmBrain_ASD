@@ -1,0 +1,6 @@
+
+Fatal LIMIT error: the number of junctions to be inserted on the fly =1663159 is larger than the limitSjdbInsertNsj=1000000
+Fatal LIMIT error: the number of junctions to be inserted on the fly =1663159 is larger than the limitSjdbInsertNsj=1000000
+SOLUTION: re-run with at least --limitSjdbInsertNsj 1663159
+
+Jan 18 17:49:12 ...... FATAL ERROR, exiting

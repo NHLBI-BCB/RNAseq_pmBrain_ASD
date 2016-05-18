@@ -1,0 +1,84 @@
+-----------------------------------------------------------------
+NOTICE: Processing operation=g protocol=refGene
+
+NOTICE: Running with system command <annotate_variation.pl -geneanno -buildver hg19 -dbtype refGene -outfile ASDPanBatch1_multianno.refGene -exonsort /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Reading gene annotation from /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_refGene.txt ... Done with 52068 transcripts (including 11837 without coding sequence annotation) for 26464 unique genes
+NOTICE: Reading FASTA sequences from /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_refGeneMrna.fa ... Done with 19004 sequences
+WARNING: A total of 356 sequences will be ignored due to lack of correct ORF annotation
+NOTICE: Finished gene-based annotation on 240931 genetic variants in /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar
+NOTICE: Output files were written to ASDPanBatch1_multianno.refGene.variant_function, ASDPanBatch1_multianno.refGene.exonic_variant_function
+-----------------------------------------------------------------
+NOTICE: Processing operation=r protocol=cytoBand
+
+NOTICE: Running with system command <annotate_variation.pl -regionanno -dbtype cytoBand -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Reading annotation database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_cytoBand.txt ... Done with 862 regions
+NOTICE: Finished region-based annotation on 240931 genetic variants in /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar
+NOTICE: Output file is written to ASDPanBatch1_multianno.hg19_cytoBand
+-----------------------------------------------------------------
+NOTICE: Processing operation=r protocol=genomicSuperDups
+
+NOTICE: Running with system command <annotate_variation.pl -regionanno -dbtype genomicSuperDups -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Reading annotation database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_genomicSuperDups.txt ... Done with 51599 regions
+NOTICE: Finished region-based annotation on 240931 genetic variants in /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar
+NOTICE: Output file is written to ASDPanBatch1_multianno.hg19_genomicSuperDups
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=esp6500siv2_all
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype esp6500siv2_all -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: the --dbtype esp6500siv2_all is assumed to be in generic ANNOVAR database format
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_esp6500siv2_all_dropped, other variants are written to ASDPanBatch1_multianno.hg19_esp6500siv2_all_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 594771 and the number of bins to be scanned is 30287
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_esp6500siv2_all.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2014oct_all
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2014oct_all -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_ALL.sites.2014_10_dropped, other variants are written to ASDPanBatch1_multianno.hg19_ALL.sites.2014_10_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 2824642 and the number of bins to be scanned is 133926
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_ALL.sites.2014_10.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2014oct_afr
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2014oct_afr -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_AFR.sites.2014_10_dropped, other variants are written to ASDPanBatch1_multianno.hg19_AFR.sites.2014_10_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 2820101 and the number of bins to be scanned is 133904
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_AFR.sites.2014_10.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2014oct_eas
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2014oct_eas -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_EAS.sites.2014_10_dropped, other variants are written to ASDPanBatch1_multianno.hg19_EAS.sites.2014_10_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 2812769 and the number of bins to be scanned is 133813
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_EAS.sites.2014_10.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=1000g2014oct_eur
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype 1000g2014oct_eur -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_EUR.sites.2014_10_dropped, other variants are written to ASDPanBatch1_multianno.hg19_EUR.sites.2014_10_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 2812033 and the number of bins to be scanned is 133851
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_EUR.sites.2014_10.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=snp138
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype snp138 -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/>
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_snp138_dropped, other variants are written to ASDPanBatch1_multianno.hg19_snp138_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 2894320 and the number of bins to be scanned is 134021
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_snp138.txt...Done
+-----------------------------------------------------------------
+NOTICE: Processing operation=f protocol=ljb26_all
+NOTICE: Finished reading 25 column headers for '-dbtype ljb26_all'
+
+NOTICE: Running system command <annotate_variation.pl -filter -dbtype ljb26_all -buildver hg19 -outfile ASDPanBatch1_multianno /hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/processed/vcfcons/mergedHighQ_cleanedSNP_batch1_v1.012.pos_4_annovar /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/ -otherinfo>
+NOTICE: the --dbtype ljb26_all is assumed to be in generic ANNOVAR database format
+NOTICE: Variants matching filtering criteria are written to ASDPanBatch1_multianno.hg19_ljb26_all_dropped, other variants are written to ASDPanBatch1_multianno.hg19_ljb26_all_filtered
+NOTICE: Processing next batch with 240931 unique variants in 240931 input lines
+NOTICE: Database index loaded. Total number of bins is 557362 and the number of bins to be scanned is 29248
+NOTICE: Scanning filter database /geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/annovar/humandb/hg19_ljb26_all.txt...Done
+-----------------------------------------------------------------
+NOTICE: Multianno output file is written to ASDPanBatch1_multianno.hg19_multianno.csv
