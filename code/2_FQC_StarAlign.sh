@@ -12,7 +12,7 @@
 
 STAR=/geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/bin/STAR/bin/Linux_x86_64/STAR
 STAR_INDEX=/geschwindlabshares/RNAseq_ASD_pancortical/ASDPanBatch1/refGen/Thread_STAR_Genome
-FASTQ_DIR=/hp_shares/mgandal/projects/RNAseq_ASD_pancortical/ASDPanBatch1/BrainGVEX_tmp/FastQC
+FASTQ_DIR=/hp_shares/mgandal/projects/CommonMind/FastQC
 
 ### Declare Input Variables
 
