@@ -1,4 +1,4 @@
-## Explanation of Scripts for ASDPancortical Orion RNAseq Pipeline
+## Explanation of Scripts for ASDPancortical Orion RNAseq Pipeline. Email jillhaney@g.ucla.edu for help.
 
 # Main Pipeline
 
